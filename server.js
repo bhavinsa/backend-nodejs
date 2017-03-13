@@ -30,7 +30,9 @@ global.fs = require('fs');
 global.appMessage = require(basePath + 'helper/appMessage.js');
 global.l = require('log_utils');
 
+global.logger = require(basePath + 'logger');
+
 //server setup
 http.createServer(app).listen(app.get('port'), function () {
-    console.log('Express server listening on port ' + app.get('port'));
+    logger.info('Express server listening on port ' + app.get('port'));
 });

@@ -1,0 +1,6 @@
+
+node_modules/*
+logs/*
+public/user_images/*
+public/product_images/*
+

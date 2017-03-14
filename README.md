@@ -8,3 +8,6 @@
 3. mkdir logs 
 4. mkdir public
 5. mkdir public/user_images
+
+# Run node application
+6. node server.js

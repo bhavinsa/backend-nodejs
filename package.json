@@ -1,7 +1,7 @@
 {
-  "name": "APIStruct",
+  "name": "backend-nodejs",
   "version": "0.0.1",
-  "description": "For API structure",
+  "description": "This is API application.",
   "main": "server.js",
   "private": "true",
   "dependencies": {
@@ -16,6 +16,9 @@
     "lodash": "latest",
     "log_utils": "^1.0.1",
     "mongoose": "latest",
-    "sync": "0.2.5"
+    "mv": "^2.1.1",
+    "sync": "0.2.5",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
   }
 }
